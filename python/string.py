@@ -39,20 +39,22 @@ print(strA[len(strA) -1 ])
 # cắt chuỗi 
 print(strA[3:len(strA)])
 print(strA[3:None])
-# thay đổi giá trị trong chuỗi 
+
+
+# thay đổi giá trị trong chuỗi  o thành 0 
 
 strE = "HowKteam.com"
 strE = strE[None:1]+"0" + strE[2:None]
-print(strE)
+print(hash(strE))
+
 # ép kiểu 
 i = float("6") + 5 
 b = str(6) + "5"
 print(i)
 print(b)
 
-
-
-
-
+ 
+s = "abc xyz"
+print(s[len(s):])
 
 
