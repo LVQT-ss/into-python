@@ -10,6 +10,7 @@ h = a.rjust(50,'-')
 i = a.ljust(50,'-')
 l = a.join(['1','2','3','4'])
 m= a.replace('e','E', 1)
+# strip xóa các kí tự đầu và cuối 
 n = a.strip()
 print(b+'\n' +c + '\n' + d + '\n' + e + '\n' + f+'\n'+ g +"\n"+h +"\n"+i+'\n'+l+'\n'+m)
 print(n)
