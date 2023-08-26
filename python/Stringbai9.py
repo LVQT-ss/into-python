@@ -54,3 +54,19 @@ print(row_2)
 print(row_3)
 print(row_4)
 print(row_5)
+
+# bản thân vẫn là kiểu chuỗi sau khi ép kiểu ||
+c = '12'
+print(int(12))
+print(type(a))
+# in hoa string chữ đầu ( capitalize )
+a = 'le viet quoc thinh '
+b = a.capitalize()
+print(a)
+print(b)
+# uppper and lower và swapcase()
+c = a.upper
+d = a.lower
+e = a.swapcase
+f = a.title
+print('upper'+c+ d + e + f)
