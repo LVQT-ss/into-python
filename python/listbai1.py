@@ -22,3 +22,37 @@ f += ['one ','two']
 g = 2 *f 
 print(f)
 print(g)
+
+# kiểm tra trong list ( in ) và lấy phần tử từ list 
+h = [1,2,3,4,5,6,7,8]
+print(1 in h )
+print(h[0])
+print(h[1:6])
+print(h[:3])
+print(h[2:])
+# thay đổi phần tử của list 
+m = ['le','viet','quoc','thinh']
+m[0] = 'thinh'
+n=m[0]
+print(n)
+print(m)
+# ma trận 
+o = [[1,2,3],[4,5,6],[7,8,9]]
+u = list(o)
+print(o)
+print(u)
+u[0] = 'thinh'
+print(o)
+print(u)
+
+# truy vấn phần tử trong ma trận 
+print(o[0][1])
+# không được phép gán list này sang list kia 
+# dùng list để gán thay đổi giá trị lúc này giá trị đã được clone ra tạo 1 list mới để thay đổi trong biến 
+k = [1,2,3]
+q = list(k)
+print(q)
+print(k)
+q[0]='thinh '
+print(q)
+print(k)
