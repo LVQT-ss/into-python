@@ -22,6 +22,10 @@ f += ['one ','two']
 g = 2 *f 
 print(f)
 print(g)
+# toán tử is kiểm tra hai biến có cùng trỏ đến cùng 1 đối tượng hay không 
+k = [1,2,3]
+e = [1,2,3]
+print(k is e) 
 
 # kiểm tra trong list ( in ) và lấy phần tử từ list 
 h = [1,2,3,4,5,6,7,8]
@@ -49,7 +53,7 @@ print(u)
 print(o[0][1])
 # không được phép gán list này sang list kia 
 # dùng list để gán thay đổi giá trị lúc này giá trị đã được clone ra tạo 1 list mới để thay đổi trong biến 
-k = [1,2,3]
+
 q = list(k)
 print(q)
 print(k)
