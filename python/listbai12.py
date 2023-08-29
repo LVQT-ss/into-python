@@ -24,7 +24,7 @@ print(f)
 print(g)
 # toán tử is kiểm tra hai biến có cùng trỏ đến cùng 1 đối tượng hay không 
 k = [1,2,3]
-e = [1,2,3]
+e = [1,2,3] 
 print(k is e) 
 
 # kiểm tra trong list ( in ) và lấy phần tử từ list 
@@ -60,3 +60,7 @@ print(k)
 q[0]='thinh '
 print(q)
 print(k)
+# bài tập 
+s = 'aaaaaaaAAAAAaaa//123123//000000//&&TTT%%abcxyznontqfadf'
+p=s.strip('abcxyznontqfadfA/1230&%')
+print(p)
