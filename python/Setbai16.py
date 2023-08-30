@@ -18,3 +18,19 @@ print(set_4)
 
 # toán tử 
 print((1,2) in {(1,2),3})
+
+# toán tử trừ 
+print({1,2,3} - {2,3})
+# lấy ra 2 toán tử trung nhau trong set 
+print({1,2,3} & {1})
+
+print({1,2,3} | {5})
+# lấy tất cả nhưng không lấy những phần tử trùng nhau 
+print({1,2,3} ^ {1,4})
+
+print(set_2.pop())
+# phương thức remove và discard ( nên dùng discard vì không thông báo lỗi khi xóa đi 1 phần tử ở bên trong set )
+ 
+set_6 = {5,6,7}
+set_6.add(4)
+print(set_6)
