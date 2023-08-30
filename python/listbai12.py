@@ -62,5 +62,5 @@ print(q)
 print(k)
 # bài tập 
 s = 'aaaaaaaAAAAAaaa//123123//000000//&&TTT%%abcxyznontqfadf'
-p=s.strip('abcxyznontqfadfA/1230&%')
+p=s.split('&&')[-1].split('%%')[0]
 print(p)

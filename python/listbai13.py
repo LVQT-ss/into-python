@@ -17,6 +17,10 @@ print(a)
 # pop lấy phần tử của y trong list ra ngoài 
 m = a.pop(1)
 print(m)
+# a.remove(0) xóa 1 phần tử trong list 
+# reverse : xoay list từ đầu tới đôi thành từ đuôi tới đầu 
+# sort : xếp thứ tự tăng dần trong list 
+
 
 # copy - tạo ra 1 bản sao khác nhau không trỏ vào bản gốc 
 d= a.copy()

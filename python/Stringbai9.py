@@ -64,9 +64,4 @@ a = 'le viet quoc thinh '
 b = a.capitalize()
 print(a)
 print(b)
-# uppper and lower và swapcase()
-c = a.upper
-d = a.lower
-e = a.swapcase
-f = a.title
-print('upper'+c+ d + e + f)
+

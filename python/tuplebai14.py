@@ -19,5 +19,13 @@ print(len(tuple))
 # để thay đổi giá trị bên trong tuple thì chúng ta có thể biến 1 list trong tuple nên khi đó chúng ta có thể thay đổi được giá trị 
 c = tuple.count(1)
 print(c)
+# chỉ ra vị trí xuất hiện của phần tử đó 
 d = tuple.index(3)
 print(d)
+# khi nào chọn tuple 
+#       tuple 
+#    không  thay đổi được giá trị 
+#
+#
+#  list 
+# thay đổi được giá trị 
