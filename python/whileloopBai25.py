@@ -61,7 +61,7 @@ while i < 5:
 
 # ------------------ BÀI TẬP CỦNG CỐ--------------------
 # bài 1 
-
+print('-------------bai 1 ---------------')
 even_number= []
 s_number=1
 while len(even_number) < 5: 
@@ -73,25 +73,42 @@ print(even_number)
 
 # bai 2 
 print('\n ------------------------------------------------------')
-file_path = r'C:\Users\Final stage\Desktop\python\python\draftWHILEELSE.txt'  # Replace with the actual path
 
-try:
-    file_object = open(file_path, 'r')  # 'r' for reading
-    data = file_object.read()  # Read the first character
+with open('draftWHILEELSE.txt') as filebt:
 
-    #while True:
-     #    if file_object
+    lst = list(filebt)
 
-    file_object.close()  # Close the file after you're done reading
-    print(data)
+    filemoi = ''
 
-except FileNotFoundError:
-    print("The file 'draftWHILEELSE.txt' does not exist.")
+    for data in lst:
+
+        data2 =  data.split()
+
+        for ind in range(len(data2)):
+
+            if data2[ind] == 'Kteam':
+
+                data2[ind-1] = 'How'
+
+        dongmoi = ' '.join(data2)            
+
+        filemoi = f'{dongmoi}'
+
+        print(filemoi)
+
+with open('kteam.txt', 'w') as complete:
+
+    print(complete.write(filemoi))
+
+
 
 print(' ------------------------------------------------------')
 
 
+
+
 # bai 3 
+print('------------bai 3 - --------')
 mang = [56, 14, 11, 756, 34, 90, 11, 11, 65, 0, 11, 35]
 k=0
 mang1=[]
