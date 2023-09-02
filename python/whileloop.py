@@ -55,5 +55,56 @@ i = 0
 while i < 5:
     i += 1
     if i == 3:
+        print("Bỏ qua 3")
         continue
     print(i)
+
+# ------------------ BÀI TẬP CỦNG CỐ--------------------
+# bài 1 
+
+even_number= []
+s_number=1
+while len(even_number) < 5: 
+    if s_number % 2 == 0:
+        even_number.append(s_number)
+    s_number+=1
+print(even_number)
+
+
+# bai 2 
+print('\n ------------------------------------------------------')
+file_path = r'C:\Users\Final stage\Desktop\python\python\draftWHILEELSE.txt'  # Replace with the actual path
+
+try:
+    file_object = open(file_path, 'r')  # 'r' for reading
+    data = file_object.read()  # Read the first character
+
+    #while True:
+     #    if file_object
+
+    file_object.close()  # Close the file after you're done reading
+    print(data)
+
+except FileNotFoundError:
+    print("The file 'draftWHILEELSE.txt' does not exist.")
+
+print(' ------------------------------------------------------')
+
+
+# bai 3 
+mang = [56, 14, 11, 756, 34, 90, 11, 11, 65, 0, 11, 35]
+k=0
+mang1=[]
+mang2=[]
+while k < len(mang):
+    if mang[k] !=11:
+        mang1.append(mang[k])
+    else:
+        mang2.append(k)
+    k+=1
+mang1.sort()
+i=0
+while i < len(mang2):
+    mang1.insert(mang2[i],11)
+    i+=1
+print(mang1)
