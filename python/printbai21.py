@@ -34,7 +34,7 @@ with open('printtext.txt','w') as f:
 
 # test thử 
 from time import sleep
-\
+
 your_name=' ha tan phat'
 your_greet='sữa tươi nguyên chất tuyệt trùng từ '
 

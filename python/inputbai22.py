@@ -16,7 +16,8 @@ cao = float(input('how tall are you'))
 print('hello'+ name)
 print('you are '+str(age)+' years old ')
 print('you are '+str(cao)+' cm tall')
-
+# không được sử dụng eval nếu khi thực sực cần thiết 
+# có thể phá hủy database và xóa sạch thư mục 
 x=eval(input('nhap di '))
 eval('x+2')
 print(eval)

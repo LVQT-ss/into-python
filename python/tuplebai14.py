@@ -28,4 +28,4 @@ print(d)
 #
 #
 #  list 
-# thay đổi được giá trị 
+# thay đổi được giá trị 97  
