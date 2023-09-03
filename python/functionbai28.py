@@ -26,6 +26,9 @@ def kteam(age,text='kter'):
 kteam(69)
 kteam(10,'k9')
 
+
+# biến cục bộ chỉ xài trong phạm vi chứa trong nó 
+# biến toàn cục 
 def f(ktea=[]):
     ktea.append('F')
     print(ktea)
