@@ -49,3 +49,9 @@ student_list= ['Long', 'Trung', 'Giàu', 'Thành']
      #print(student)
 gen = enumerate(student_list)
 print(list(gen))
+
+# BÀI TẬP 
+# CÂU 1 
+lst = [[1,2,3],[4,5,6]]
+for value_lst in range(len(lst)):
+     print(lst(value_lst))
