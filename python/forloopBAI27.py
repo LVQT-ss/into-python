@@ -59,49 +59,24 @@ for value_lst in l:
 print(l)
 
 
-# câu 2 
-def generate_spiral_matrix(n):
-    matrix = [[0] * n for _ in range(n)]
-    num = n * n
-    top, bottom, left, right = 0, n - 1, 0, n - 1
+# câu 2
+n = int(input('Enter size of matrix: '))
+dx, dy = 1,0
+x, y = 0,0
+spiral_matrix = [[None] * n for j in range(n)]
 
-    while num >= 1:
-        for i in range(left, right + 1):
-            matrix[top][i] = num
-            num -= 1
-        top += 1
-
-        for i in range(top, bottom + 1):
-            matrix[i][right] = num
-            num -= 1
-        right -= 1
-
-        for i in range(right, left - 1, -1):
-            matrix[bottom][i] = num
-            num -= 1
-        bottom -= 1
-
-        for i in range(bottom, top - 1, -1):
-            matrix[i][left] = num
-            num -= 1
-        left += 1
-
-    return matrix
-
-def print_spiral_matrix(matrix):
-    n = len(matrix)
-    max_num_width = len(str(n * n - 1))
-
-    for row in matrix:
-        for num in row:
-            num_str = str(num).zfill(max_num_width)
-            print(num_str, end=' ')
-        print()
-
-if __name__ == "__main__":
-    n = int(input("Nhập số cột/hàng của spiral matrix: "))
-    if n <= 0:
-        print("Vui lòng nhập một số nguyên dương.")
+for i in range(n ** 2):
+    spiral_matrix[x][y] = i
+    nx, ny = x + dx, y + dy
+    if 0 <= nx < n and 0 <= ny < n and spiral_matrix[nx][ny] == None:
+        x, y = nx, ny
     else:
-        spiral_matrix = generate_spiral_matrix(n)
-        print_spiral_matrix(spiral_matrix)
+        dx, dy = -dy, dx
+        x, y = x + dx, y + dy
+
+for y in range(n):
+    for x in range(n):
+        print("%02i" % spiral_matrix[x][y], end=' ')
+    print()
+
+print()
