@@ -4,3 +4,5 @@ def inluoi():
         print(luoi[i],'|',luoi[i+1],'|',luoi[i+2])
         print('----------')
 inluoi()
+
+#def trong

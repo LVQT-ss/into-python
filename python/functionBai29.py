@@ -27,3 +27,8 @@ def kteam(pos,*,key=1,key2=2):
     print(key2)
 
 kteam(1)
+
+
+# bài tập 
+#sorted(iterable, /, *, key=None, reverse=False)
+# các positional only là iterable còn các keyword only là key và reverse 
