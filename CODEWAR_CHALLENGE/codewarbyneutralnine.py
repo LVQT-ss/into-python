@@ -15,7 +15,7 @@ def spin_words(sentence):
     words = [word[::-1] if len(word) >=5 else word  for word in words]
     return " ".join(words)
 
-# find duplicate letter 
+#duplicate letter in string 
 def duplicate_count(text):
     occured = []
     found = []
@@ -28,4 +28,3 @@ def duplicate_count(text):
                 counter+=1
                 found.append(letter.lower())
     return counter
-    

@@ -43,4 +43,6 @@ next(g)
 print(g.send(10))
 
 
-      
+      # vì sao dùng yield 
+      # tốc độ : khi dùng các generator thì duyệt các giá trị sẽ nhanh hơn khi bạn duyệt 1 interable 
+      # cân nhắc lưu trử tất cả dữ liệu của yield 

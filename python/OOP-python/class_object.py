@@ -42,3 +42,7 @@ print('su dung vu khi ',siunhan_A.mausac)
 
 print(siunhan_A.xin_chao())
 print(siunhan1.xin_chao(siunhan_A))
+
+# thông thường khi nói tới hàm của lớp người ta hay gọi là phương thức method . 
+# khi nói tới hàm thì nó là một chương trình be bé chờ bạn thực thi còn khi gọi nó là phương thức thì 
+# nó là hàm nhưng liên quan tới lớp 

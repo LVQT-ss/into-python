@@ -21,3 +21,4 @@ def cal_sum(lst):
 def call_cal_sum(lst):
      return lst[0] + cal_sum(lst[1:])
 print(cal_s([[1,2],[3,4]]))
+print(cal_s([1,2,3,4,5]))

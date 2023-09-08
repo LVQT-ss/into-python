@@ -57,3 +57,4 @@ kter_a = kter('tran ',' long dep trai ')
 kter_a.ho_va_ten= 'nguyen giau'
 print(kter_a.ho_va_ten)
 del kter_a.ho_va_ten
+print(kter_a.ho_va_ten)

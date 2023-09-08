@@ -38,7 +38,7 @@ for func in kteam_lst :
 
 find_greater = lambda x, y : x if x > y else y 
 print(find_greater(1,3))  
-
+# lambda chồng lamda ( khuyến khích không nên xài )
 def kteam(first):
     return lambda second: first + second
 slogan = kteam('how kteam')
