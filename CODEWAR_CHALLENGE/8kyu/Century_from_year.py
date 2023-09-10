@@ -14,7 +14,4 @@ def century(year):
         # Trả về giá trị thế kỷ kế tiếp
         return thoi_ky + 1
 
-thoi_ky = 1003 // 100
-print(thoi_ky)
-
 # https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/python
