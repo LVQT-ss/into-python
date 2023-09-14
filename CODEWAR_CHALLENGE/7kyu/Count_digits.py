@@ -10,4 +10,4 @@ def digits(n):
 # https://www.codewars.com/kata/58fa273ca6d84c158e000052/solutions/python
 
 def digits(n):
-    return len(str(n))
+    return len(str(n)) 

@@ -22,3 +22,6 @@ candles = 100
 debris = "abc"
 result = cake(candles, debris)
 print(result)  # Output: "That was close!"
+
+
+# https://www.codewars.com/kata/5805ed25c2799821cb000005/solutions/python
