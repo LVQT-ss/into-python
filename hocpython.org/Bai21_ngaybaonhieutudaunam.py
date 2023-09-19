@@ -1,5 +1,5 @@
 ngay = int(input("nhap vao ngay :"))
-thang = int(input("nhập vào nâm :"))
+thang = int(input("nhập vào thang :"))
 if thang <= 8:
     sothang30ngay = (thang-1) //2 
     sothang31ngay = thang//2 
