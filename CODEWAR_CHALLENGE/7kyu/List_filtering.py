@@ -3,6 +3,6 @@ def filter_list(l):
     for i in l:
         if type(i)== str:
             continue
-        else:
+        else:    
             result.append(i)
     return result
